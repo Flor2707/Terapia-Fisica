@@ -1,0 +1,53 @@
+/* QUIEN SOY */
+section.blockinfo {
+    background-color:nth($colores,4) !important;
+    font-family: "Rubik", sans-serif;
+    padding: 15px;
+    div.container {
+         
+        h2.mb-4 {
+            text-shadow: 2px 2px 2px whitesmoke;
+            padding-top: 25px;
+            font-size: 35px;
+            color: nth($colores,1);  
+        }
+        
+        .mb-5 {
+            font-size: 26px;
+
+        }
+        div div img.img-fluid {
+            border-radius: 100%;
+        }
+        div div div span.display-3 {
+            font-size: 40px;
+            color: nth($colores,1)
+         }
+         div div div h3.mb-4 {
+             color: nth($colores,1);
+             font-weight: bolder;
+         }
+    
+    @media screen and (max-width: 700px) {
+
+        p{
+          font-size: 18px;
+          margin-top: 100px;
+       }
+       @media screen and (max-width: 700px){
+       h3 {
+        margin-top: 10px;
+       }
+   
+}
+   
+} @media screen and (max-width: 700px) {
+    p {margin-top: 0.5rem !important;}}
+}
+}
+
+
+
+
+
+

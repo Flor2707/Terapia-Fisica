@@ -1,0 +1,27 @@
+/* servicios*/
+@import "listas";
+section#servicios {
+    background-color: nth($colores,4);
+    div div.row {
+    font-size: 19px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    div p.mt-4 {
+    font-size: 22px;
+    color: nth($colores,5);
+    text-shadow: 2px 2px 2px nth($colores,4);
+    }
+    div img.rounded-circle {
+        width: 85px;
+        height: 85px;
+    }
+    }
+}
+
+
+
+
+
+

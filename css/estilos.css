@@ -1,0 +1,195 @@
+/* nav*/
+nav.bg-light {
+  background-color: #ffffff !important;
+}
+nav.bg-light img.img {
+  width: 70px;
+  height: 70px;
+}
+nav.bg-light img.img:hover {
+  transform: scale(1.4, 1.3);
+}
+nav.bg-light div ul li.nav-item {
+  margin-left: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+nav.bg-light div ul li a {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #04BFBF !important;
+  font-weight: bolder;
+}
+nav.bg-light div ul li a:hover {
+  transform: scale(1.3, 1.3);
+  color: #D93BBE !important;
+  background-color: #d2c7b6;
+}
+nav.bg-light div ul li a img {
+  height: 31px;
+  width: 31px;
+}
+
+/* inicio */
+section#inicio {
+  background-image: url(https://i.ibb.co/Wysc8pm/fondoindex.jpg);
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 600px;
+}
+section#inicio div.container {
+  margin-top: 140px;
+  font-family: "Rubik", sans-serif;
+  font-size: 35px;
+  color: #ffffff;
+}
+section#inicio div.container a button.btn {
+  background-color: #04BFBF;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 8px;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+section#inicio div.container a button.btn:hover {
+  color: #D93BBE;
+  background-color: #d2c7b6;
+}
+@media screen and (max-width: 700px) {
+  section#inicio p {
+    font-size: 25px;
+    margin-top: 100px;
+  }
+}
+
+/* servicios*/
+section#servicios {
+  background-color: whitesmoke;
+}
+section#servicios div div.row {
+  font-size: 19px;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+section#servicios div div.row div p.mt-4 {
+  font-size: 22px;
+  color: #04BFBF;
+  text-shadow: 2px 2px 2px whitesmoke;
+}
+section#servicios div div.row div img.rounded-circle {
+  width: 85px;
+  height: 85px;
+}
+
+/* footer */
+section.footer {
+  background-color: lightgray;
+}
+section.footer .container {
+  color: black;
+}
+section.footer .container div div a {
+  color: #04BFBF;
+  font-weight: bolder;
+}
+
+a.float {
+  position: fixed;
+  width: 60px;
+  height: 57px;
+  bottom: 72px;
+  right: 10px;
+  background-color: #01B32B;
+  color: #FFF !important;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 34px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 6;
+}
+
+/* OBRAS SOCIALES */
+.py-5 {
+  background-color: lightgray;
+  padding-bottom: 100px !important;
+  font-family: "Rubik", sans-serif;
+  color: black;
+}
+.py-5 .container {
+  max-width: 1600px !important;
+}
+.py-5 .container div p.mb-5 {
+  text-shadow: none;
+}
+.py-5 .container div div div div img.rounded-circle {
+  width: 170px;
+  height: 90px;
+  transition: all 0.5s;
+  transition: all 0.5s;
+}
+.py-5 .container div div div div img.rounded-circle:hover {
+  width: 180px;
+  height: 100px;
+  transition: all 0.5s;
+  border-color: #D93BBE;
+}
+
+/* QUIEN SOY */
+section.blockinfo {
+  background-color: whitesmoke !important;
+  font-family: "Rubik", sans-serif;
+  padding: 15px;
+}
+section.blockinfo div.container h2.mb-4 {
+  text-shadow: 2px 2px 2px whitesmoke;
+  padding-top: 25px;
+  font-size: 35px;
+  color: #F2B441;
+}
+section.blockinfo div.container .mb-5 {
+  font-size: 26px;
+}
+section.blockinfo div.container div div img.img-fluid {
+  border-radius: 100%;
+}
+section.blockinfo div.container div div div span.display-3 {
+  font-size: 40px;
+  color: #F2B441;
+}
+section.blockinfo div.container div div div h3.mb-4 {
+  color: #F2B441;
+  font-weight: bolder;
+}
+@media screen and (max-width: 700px) {
+  section.blockinfo div.container p {
+    font-size: 18px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 700px) and (max-width: 700px) {
+  section.blockinfo div.container h3 {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  section.blockinfo div.container p {
+    margin-top: 0.5rem !important;
+  }
+}
+
+body {
+  background-color: #d2c7b6;
+}
+body .form {
+  padding: 25px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/*# sourceMappingURL=estilos.css.map */

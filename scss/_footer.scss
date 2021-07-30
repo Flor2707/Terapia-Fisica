@@ -1,0 +1,27 @@
+/* footer */
+@import "listas";
+section.footer {
+    background-color:nth($colores,6);
+    .container {
+        color: nth($colores,8);
+        div div a {
+            color: nth($colores,5);
+            font-weight: bolder;
+        }
+    }
+}
+
+a.float {
+    position: fixed;
+    width: 60px;
+    height: 57px;
+    bottom: 72px;
+    right: 10px;
+    background-color: #01B32B;
+    color: #FFF !important;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 34px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 6;
+}

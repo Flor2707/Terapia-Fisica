@@ -1,0 +1,44 @@
+/* nav*/
+@import "listas";
+nav.bg-light{
+    background-color:nth($colores,3) !important;
+    
+    img.img {
+        width: 70px;
+        height: 70px;
+        &:hover {
+            transform: scale(1.4,1.3);
+        }
+    }
+    div {
+        ul { 
+            li.nav-item {
+                margin-left: 30px;
+                padding-left: 30px;
+                padding-right: 30px;
+                
+            }
+        
+            
+            li {
+                a {padding-left: 20px;
+                   padding-right: 20px;
+                   color: nth($colores,5) !important;
+                   font-weight: bolder;
+                    &:hover {
+                        //background-color:nth($colores,1);//
+                        transform: scale(1.3,1.3);
+                        color:nth($colores,2) !important;
+                        background-color: nth($colores,7);
+                    }
+                 img {
+                    height: 31px;
+                    width: 31px;
+                }
+            
+            }
+        }
+    }
+}
+}
+    
